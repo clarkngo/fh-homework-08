@@ -27,9 +27,9 @@ fh-homework-08 is released under the [MIT license](https://mit-license.org).
 
 copyright:: (c) Copyright 2018 Clark Jason Ngo. All Rights Reserved.
 
-##Quiz
+## Quiz
 
-###1. What is an Object? Please write your answer below.
+### 1. What is an Object? Please write your answer below.
 
 In Computer Science an object can be a variable, a data structure, a function, or a method, and as such, a value in memory referenced by an identifier.
 In OOP, Object refers to a particular instance of class.
