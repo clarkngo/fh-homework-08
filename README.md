@@ -53,7 +53,7 @@ Ruby Code blocks (called closures in other languages) are chunks of code between
 
 Source: http://rubylearning.com/satishtalim/ruby_blocks.html
 
-Given the following:
+### Given the following:
 hash = { a: 1, b: 2, c: 3, e: 4, f: 5, g: 6, h: 7, i: 8, j: 9, k: 0 }
 Please answer the following questions:
 ### 6. How would I get the value of 'f'? Please write your answer below.
@@ -61,6 +61,8 @@ Please answer the following questions:
 5
 
 ### 7. How would I add the key, 'l', with a value of 11 to the 'hash'? Please write your answer below.
+
+`hash[:l] = 11`
 
 8. Write a method, sum_hash_values, which takes all the values of a hash produces a total. Please write your answer below.
 ```
