@@ -31,7 +31,7 @@ tree-traversal is released under the [MIT license](https://mit-license.org).
 
 copyright:: (c) Copyright 2018 Clark Jason Ngo. All Rights Reserved.
 
-Quiz
+##Quiz
 
 1. What is an Object? Please write your answer below.
 
@@ -42,15 +42,17 @@ In Ruby, everything is an object.
 2. What is a Class? Please write your answer below.
 In object-oriented programming, a class is an extensible program-code-template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions or methods).
 
-3. What is a Class? Please write your answer below.
 3. What's the difference between a class and module?
+
 4. What does the self mean in the Ruby language? Please write your answer below.
 5. What is a block as defined in the Ruby language?
 Given the following:
 hash = { a: 1, b: 2, c: 3, e: 4, f: 5, g: 6, h: 7, i: 8, j: 9, k: 0 }
 Please answer the following questions:
 6. How would I get the value of 'f'? Please write your answer below.
+
 7. How would I add the key, 'l', with a value of 11 to the 'hash'? Please write your answer below.
+
 8. Write a method, sum_hash_values, which takes all the values of a hash produces a total. Please write your answer below.
 ```
 def sum_hash_values( some_hash )
