@@ -39,13 +39,26 @@ In Ruby, everything is an object.
 In object-oriented programming, a class is an extensible program-code-template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions or methods).
 
 3. What's the difference between a class and module?
+Class can be instantiated and a Module cannot.
+
+Ruby Modules are similar to classes in that they hold a collection of methods, constants, and other module and class definitions. Modules are defined much like classes are, but the module keyword is used in place of the class keyword.
 
 4. What does the self mean in the Ruby language? Please write your answer below.
+Self in Ruby. The keyword self in Ruby gives you access to the current object – the object that is receiving the current message.
+
+Source: https://www.jimmycuadra.com/posts/self-in-ruby/
+
 5. What is a block as defined in the Ruby language?
+Ruby Code blocks (called closures in other languages) are chunks of code between braces or between do..end that you can associate with method invocations, almost as if they were parameters. A Ruby block is a way of grouping statements, and may appear only in the source adjacent to a method call; the block is written starting on the same line as the method call's last parameter (or the closing parenthesis of the parameter list). The code in the block is not executed at the time it is encountered. Instead, Ruby remembers the context in which the block appears (the local variables, the current object, and so on) and then enters the method.
+
+Source: http://rubylearning.com/satishtalim/ruby_blocks.html
+
 Given the following:
 hash = { a: 1, b: 2, c: 3, e: 4, f: 5, g: 6, h: 7, i: 8, j: 9, k: 0 }
 Please answer the following questions:
 6. How would I get the value of 'f'? Please write your answer below.
+
+5
 
 7. How would I add the key, 'l', with a value of 11 to the 'hash'? Please write your answer below.
 
@@ -63,6 +76,7 @@ end
 ```
 Note: Please don't use any Ruby Standard library methods.
 10. What's the difference between a Hash vs Array in the Ruby language? Write your answer below.
+
 11. Write a method to determine whether not a string is a palindrome using
 recursion?
 ```
