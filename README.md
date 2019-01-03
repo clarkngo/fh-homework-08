@@ -1,6 +1,8 @@
-## Tree Traversal
+## Quiz
 
-This project shows an implementation of Depth First Search Algorithm and Breadth First Search Algorithm in finding a Node in a Tree Data Structure using Queues.
+- The purpose of this homework is to test your understanding of both the Ruby Language
+  and the Rails web development framework. Please do leverage the resources that
+  appear within the references section of this document.
 
 ## Software requirements
 
@@ -8,24 +10,18 @@ This project shows an implementation of Depth First Search Algorithm and Breadth
 
 ## Clone this repository
 ```
-git clone git@github.com:clarkngo/tree-traversal.git
+git clone git@github.com:clarkngo/fh-homework-08.git
 ```
 
 ## Navigate to the Rails application
 
 ```
-$ cd tree-traversal
-```
-
-## Running this project
-
-```
-$ ruby tree_traversal.js
+$ cd fh-homework-08
 ```
 
 ## License
 
-tree-traversal is released under the [MIT license](https://mit-license.org).
+fh-homework-08 is released under the [MIT license](https://mit-license.org).
 
 ## Copyright
 
