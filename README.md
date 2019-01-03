@@ -62,24 +62,38 @@ Please answer the following questions:
 
 ### 7. How would I add the key, 'l', with a value of 11 to the 'hash'? Please write your answer below.
 
-`hash[:l] = 11`
+If you have a hash, you can add items to it by referencing them by key:
 
-8. Write a method, sum_hash_values, which takes all the values of a hash produces a total. Please write your answer below.
+```
+hash[:l] = 11
+```
+
+### 8. Write a method, sum_hash_values, which takes all the values of a hash produces a total. Please write your answer below.
 ```
 def sum_hash_values( some_hash )
-# write your answer here
+  sum = 0
+  some_hash.each_value {|value| sum = sum + value }
+  sum
 end
 ```
-9. Write a method, sum_hash_odd_values, which takes all of the odd values of a hash produces a total. Please write your answer below.
+### 9. Write a method, sum_hash_odd_values, which takes all of the odd values of a hash produces a total. Please write your answer below.
 ```
 def sum_hash_odd_values( some_hash )
-# write your answer here
+  sum = 0
+  sum = sum + value if value % 2 == 1 }
+  sum
 end
 ```
-Note: Please don't use any Ruby Standard library methods.
-10. What's the difference between a Hash vs Array in the Ruby language? Write your answer below.
+### Note: Please don't use any Ruby Standard library methods.
+### 10. What's the difference between a Hash vs Array in the Ruby language? Write your answer below.
 
-11. Write a method to determine whether not a string is a palindrome using
+Ruby's arrays and hashes are indexed collections. Both store collections of objects, accessible using a key. With arrays, the key is an integer, whereas hashes support any object as a key.
+
+Ruby hashes are similar to arrays. A hash literal uses braces rather than square brackets. The literal must supply two objects for every entry: one for the key, the other for the value.
+
+Source: https://www.linuxtopia.org/online_books/programming_books/ruby_tutorial/Ruby.new_Arrays_and_Hashes.html
+
+### 11. Write a method to determine whether not a string is a palindrome using
 recursion?
 ```
 def palindrome?( some_string )
